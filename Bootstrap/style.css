@@ -1,0 +1,59 @@
+
+nav{
+
+  padding: 10px;
+background-color: lightgrey;
+text-align: center;
+
+height: 360px;
+}
+
+#länkar{
+
+  //display: flex;
+  text-align: right;
+}
+
+main{
+
+  padding: 10px;
+  text-align: center;
+}
+
+footer{
+
+  padding: 10px;
+
+  text-align: center;
+}
+
+.row{
+
+//  border:1px solid;
+
+
+}
+
+hr{
+
+
+}
+
+.fyrkant{
+
+   border:1px solid;
+   height: 100px;
+
+}
+
+img{
+
+  position: center;
+  margin-top: 25px;
+
+}
+
+@media only screen and (max-width: 990px) {
+  .play{
+  display: none;
+  }
