@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,12 +48,12 @@ table {
 }
 
 body{
-  
+
   background-image: url('../img/back.jpg');
 
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-  
+
 }
 
 
@@ -61,7 +61,7 @@ body{
 #wrapper{
   height: 800px;
   width:1000px;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -69,15 +69,15 @@ header{
   width: 1000px;
   height: 200px;
   background-image: url('../img/logga1.jpg');
-  
+
   background-size: contain;
-  
+
 }
 nav{
   width: 1000px;
   height: 60px;
   background-color: #4692c6;
-  
+
 }
 #center{
   display:flex;
@@ -92,20 +92,20 @@ aside{
   height:2400px;
   width:200px;
   background-color: #e4f1f9;
-  color: #FFFFFF;
+  //color: #FFFFFF;
 }
 footer{
   height: 20px;
   width: 1000px;
   background-color: #0d0e0d;
   color:#FFFFFF;
-  
+
 }
 
 /*________  formatering av länkar ______________________*/
 
 a{
-  
+
   color: black;
   font-family: monospace;
   font-size: 40px;
@@ -134,4 +134,3 @@ img{
   width :500px;
   padding: 20px;
 }
-
