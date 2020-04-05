@@ -54,7 +54,7 @@ table {
 }
 
 body{
-  background-image: url('../img/back.jpg');
+  background-image: url('../img/backnew.jpg');
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
@@ -69,7 +69,7 @@ body{
 header{
   width: 1000px;
   height: 200px;
-  background-image: url('../img/logga1.jpg');
+  background-image: url('../img/logga1new.jpg');
   background-size: contain;
 }
 
