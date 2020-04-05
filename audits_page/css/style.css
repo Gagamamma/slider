@@ -23,89 +23,90 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 body{
-
   background-image: url('../img/back.jpg');
-
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-
 }
-
-
 
 #wrapper{
   height: 800px;
   width:1000px;
-
   margin-left: auto;
   margin-right: auto;
 }
+
 header{
   width: 1000px;
   height: 200px;
   background-image: url('../img/logga1.jpg');
-
   background-size: contain;
-
 }
+
 nav{
   width: 1000px;
   height: 60px;
   background-color: #4692c6;
-
 }
+
 #center{
   display:flex;
 }
+
 main{
   height:2400px;
   width:700px;
   background-color: white;
   padding: 20px;
 }
+
 aside{
   height:2400px;
   width:200px;
   background-color: #e4f1f9;
-color: black;
+	color: black;
 }
+
 footer{
   height: 20px;
   width: 1000px;
   background-color: #0d0e0d;
   color:#FFFFFF;
-
 }
 
 /*________  formatering av länkar ______________________*/
 
 a{
-
   color: black;
   font-family: monospace;
   font-size: 40px;
@@ -128,8 +129,6 @@ a:active {
   text-decoration: underline;
 }
 
-
 img{
-  
   padding: 20px;
 }
