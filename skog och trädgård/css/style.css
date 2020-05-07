@@ -1,0 +1,252 @@
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .wrapper{
+  padding-top: 60px;
+}
+
+#navbar{
+
+overflow: hidden;
+}
+
+#streck{
+  width: 100%;
+  height: 5px;
+  background-color: orange;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+
+  background-color: white;
+  width: 100%;
+  height: 412px;
+}
+nav{
+  background-color: white;
+  width: 100%;
+  height: 90px;
+
+  font-size: 30px;
+  padding-top: 20px;
+  display: flex;
+  font-family: 'Sen', sans-serif;
+  }
+
+  #sortimentButton{
+    display: none;
+  }
+
+  #verkstadButton{
+    display: none;
+  }
+  #öppettiderButton{
+    display: none;
+  }
+
+  #omossButton{
+    display: none;
+  }
+
+  .bild{
+    margin-left: 20px;
+
+  }
+
+  .lankar{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
+
+  .whiteLink{
+    color: white;
+
+  }
+
+main{
+  background-color: white;
+  height: 1200px;
+  width: 100%;
+  padding-top: 20px;
+  font-family: 'Sen', sans-serif;
+  }
+
+.mellanrum{
+  height: auto;
+  width: 100%;
+  }
+
+#sortiment{
+  padding:40px;
+  }
+
+#hemsidan{
+  padding:40px;
+  }
+
+#verkstad{
+  padding: 40px;
+  }
+#öppettider{
+    padding: 40px;
+    }
+
+footer{
+  background-color: #fff;
+  height: 920px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  }
+
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  }
+
+body{
+  margin: 0 0 0 0;
+
+  background-color: #253050;
+  }
+
+  #twitterBild{
+    margin-left: 50%;
+    }
+
+.sprite {
+  background-image: url(sprites.png);
+  background-repeat: no-repeat;
+  display: block;
+  }
+
+.sprite-logga3 {
+  width: 135px;
+  height: 95px;
+  background-position: -5px -5px;
+  }
+
+.sprite-twitter {
+  width: 30px;
+  height: 30px;
+  background-position: -150px -5px;
+  }
+
+#slider{
+  height: 200px;
+  width: 200px;
+  margin-left: 42%;
+  margin-top: 20px;
+  }
+
+  iframe{
+
+  width: 99%;
+  height: 300px;
+
+
+  }
+
+#imgs{
+  height: 200px;
+  width: 609px;
+  position: relative;
+  }
+
+button{
+  display: none;
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+  margin-left: 47%;
+  font-family: 'Sen', sans-serif;
+  }
+
+#hideMenu{
+  display: flex;
+  }
+
+#omoss{
+  font-family: 'Sen', sans-serif;
+  }
+
+h1{
+  font-family: 'Sen', sans-serif;
+  }
+
+@media only screen and (max-width: 1000px) {
+
+  .wrapper{
+   width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  #hideMenu{
+  display:none;
+  }
+
+  footer{
+
+    height: 950px;
+
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  main{
+   height: 1800px ;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main{
+   height: 1850px ;
+  }
+
+footer{
+  height: 1000px;
+}
+
+}
+
+@media only screen and (max-width: 550px) {
+  main{
+   height: 2000px ;
+  }
+
+  footer{
+    height: 1000px;
+}
+  }
+
+@media only screen and (max-width: 530px) {
+  main{
+   height: 2400px ;
+  }
+
+footer{
+  height: 1000px;
+     }
+  }
