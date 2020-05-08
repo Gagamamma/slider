@@ -32,7 +32,7 @@ $("#sortimentButton").click(function(){
 
   $('html, body').animate({
 
-        scrollTop: $("#sortiment").offset().top-90
+        scrollTop: $("#sortiment").offset().top-150
     }, 2000);
 
 
@@ -45,7 +45,7 @@ $("#verkstadButton").click(function(){
 
   $('html, body').animate({
 
-        scrollTop: $("#verkstad").offset().top-90
+        scrollTop: $("#verkstad").offset().top-150
     }, 2000);
 
 
@@ -57,7 +57,7 @@ $("#öppettiderButton").click(function(){
 
   $('html, body').animate({
 
-        scrollTop: $("#öppettider").offset().top-90
+        scrollTop: $("#öppettider").offset().top-150
     }, 2000);
 
 
@@ -69,8 +69,8 @@ $("#omossButton").click(function(){
 
   $('html, body').animate({
 
-        scrollTop: $("#omoss").offset().top-120
-    }, 2000);
+        scrollTop: $("#omoss").offset().top-140
+    }, 3000);
 
 
 
