@@ -1,20 +1,7 @@
-
-
 $("#sortimentButton").show();
 $("#verkstadButton").show();
 $("#öppettiderButton").show();
 $("#omossButton").show();
-
-$("#bkkButton").click(function(){
-
-
-  $('html, body').animate({
-        scrollTop: $("#bkorkort").offset().top-90
-    }, 2000);
-
-
-
-});
 
 $("#hemButton").click(function(){
   var a = window.pageYOffset ;
