@@ -17,10 +17,19 @@ $("#bkkButton").click(function(){
 });
 
 $("#hemButton").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=140;
 
+  }
+  else {
+    pos=79;
+  }
 
   $('html, body').animate({
-        scrollTop: $("#hemsidan").offset().top-140
+        scrollTop: $("#hemsidan").offset().top-pos
     }, 2000);
 
 
@@ -28,11 +37,20 @@ $("#hemButton").click(function(){
 });
 
 $("#sortimentButton").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=150;
 
+  }
+  else {
+    pos=90;
+  }
 
   $('html, body').animate({
 
-        scrollTop: $("#sortiment").offset().top-150
+        scrollTop: $("#sortiment").offset().top-pos
     }, 2000);
 
 
@@ -41,7 +59,16 @@ $("#sortimentButton").click(function(){
 
 
 $("#verkstadButton").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=150;
 
+  }
+  else {
+    pos=90;
+  }
 
   $('html, body').animate({
 
@@ -53,7 +80,16 @@ $("#verkstadButton").click(function(){
 });
 
 $("#öppettiderButton").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=150;
 
+  }
+  else {
+    pos=90;
+  }
 
   $('html, body').animate({
 
@@ -66,22 +102,41 @@ $("#öppettiderButton").click(function(){
 
 $("#omossButton").click(function(){
 
+var a = window.pageYOffset ;
+console.log(a);
+var pos=0;
+if (a<412) {
+  pos=200;
+
+}
+else {
+  pos=140;
+}
 
   $('html, body').animate({
 
-        scrollTop: $("#omoss").offset().top-140
-    }, 3000);
+        scrollTop: $("#omoss").offset().top-pos
+    }, 2000);
 
 
 
 });
 
 $(".bild").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=140;
 
+  }
+  else {
+    pos=79;
+  }
 
   $('html, body').animate({
 
-        scrollTop: $("#hemsidan").offset().top-90
+        scrollTop: $("#hemsidan").offset().top-pos
     }, 2000);
 
 
@@ -92,6 +147,7 @@ window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
+console.log(sticky);
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -99,7 +155,9 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+  document.body.style.zIndex = 1;
 }
+
 
 
 
