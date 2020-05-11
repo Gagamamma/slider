@@ -35,6 +35,7 @@ header{
 
 .bildresponsive{
   width: 100%;
+
   max-height: 412px;
   height: auto;
 
@@ -139,26 +140,34 @@ body{
   }
 
   #twitterBild{
-    margin-left: 50%;
+    margin-left: 49%;
+    padding-top: 15px;
     }
 
 .sprite {
-  background-image: url(sprites.png);
-  background-repeat: no-repeat;
-  display: block;
-  }
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
 
-.sprite-logga3 {
-  width: 135px;
-  height: 95px;
-  background-position: -5px -5px;
-  }
+.sprite-ezgif-com-webp-to-jpg {
+    width: 128px;
+    height: 80px;
+    background-position: -5px -5px;
+}
 
-.sprite-twitter {
-  width: 30px;
-  height: 30px;
-  background-position: -150px -5px;
-  }
+.sprite-facebooksprite {
+    width: 35px;
+    height: 36px;
+    background-position: -143px -5px;
+}
+
+.sprite-webbskog {
+    width: 35px;
+    height: 22px;
+    background-position: -143px -51px;
+}
+
 
 #slider{
   height: 200px;
@@ -188,7 +197,16 @@ button{
   height: 40px;
   margin-left: 47%;
   font-family: 'Sen', sans-serif;
+  background-color: white;
+  color: black;
+  border: 2px solid #e09d1b;
+
   }
+
+button:hover {
+  background-color: #253050;
+  color: #e09d1b;
+}
 
 #hideMenu{
   display: flex;

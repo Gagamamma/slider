@@ -173,7 +173,7 @@ $("#btn1").click(function () {  //När man klickar på knappen btn1 körs funkti
     $("#imgs").animate({right:"0"});  // ska man bläddra tillbaka till bild ett på px 0.
     x=0; //x blir 0 igen eftersom man är på första bilden.
   }else {
-    $("#imgs").animate({right:"+=202"});  //Innan x>=3 ska bilderna bläddra 202px mot höger.
+    $("#imgs").animate({right:"+=203"});  //Innan x>=3 ska bilderna bläddra 202px mot höger.
 
   }
 
