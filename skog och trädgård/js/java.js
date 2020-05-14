@@ -1,6 +1,6 @@
 $("#sortimentButton").show();
 $("#verkstadButton").show();
-$("#öppettiderButton").show();
+$("#oppettiderButton").show();
 $("#omossButton").show();
 
 $("#hemButton").click(function(){
@@ -66,7 +66,7 @@ $("#verkstadButton").click(function(){
 
 });
 
-$("#öppettiderButton").click(function(){
+$("#oppettiderButton").click(function(){
   var a = window.pageYOffset ;
   console.log(a);
   var pos=0;
@@ -80,7 +80,7 @@ $("#öppettiderButton").click(function(){
 
   $('html, body').animate({
 
-        scrollTop: $("#öppettider").offset().top-150
+        scrollTop: $("#oppettider").offset().top-150
     }, 2000);
 
 
