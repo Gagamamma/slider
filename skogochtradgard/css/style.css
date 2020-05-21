@@ -103,7 +103,7 @@ nav{
 
 main{
   background-color: white;
-  height: 1500px;
+  height: 1450px;
   width: 100%;
   padding-top: 20px;
 
@@ -127,7 +127,7 @@ main{
 
   .ladorinnehåll{
     width: 250px;
-    height: 350px;
+    height: 410px;
     margin: 10px;
     margin-left: 30px;
     padding-top: 0px;
@@ -136,6 +136,18 @@ main{
     border: 2px solid #e09d1b;
     font-family: 'Sen', sans-serif;
   }
+
+  #stihlbild{
+    margin-top: 19px;
+  }
+
+  #husqvarnabild{
+    margin-top: 18px;
+  }
+  #yamahabild{
+    margin-top: 19px;
+  }
+
 
 #hemsidan{
   padding:40px;
@@ -250,24 +262,44 @@ h1{
   font-family: 'Sen', sans-serif;
   }
 
-@media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1920px) {
+    #slider{
+      margin-left: 44%;
+      }
+
+
+  }
+  @media only screen and (max-width: 1400px) {
+
+    #slider{
+      margin-left: 42%;
+      }
+
+  }
+
+  @media only screen and (max-width: 1100px) {
+
+
+    header{
+      height: 350px;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
 
   .wrapper{
    width: 100%;
   }
 
   header{
-    height: 300px;
+    height: 333px;
   }
+  #slider{
+    margin-left: 41%;
+    }
 }
 
-@media only screen and (max-width: 1100px) {
 
-
-  header{
-    height: 350px;
-  }
-}
 
 @media only screen and (max-width: 870px) {
 
@@ -285,7 +317,7 @@ h1{
 
   footer{
 
-    height: 950px;
+    height: 1100px;
 
   }
   header{
@@ -293,6 +325,8 @@ h1{
   }
 
 }
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -302,6 +336,7 @@ h1{
   header{
     height: 250px;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -310,7 +345,7 @@ h1{
   }
 
 footer{
-  height: 1000px;
+  height: 1120px;
 }
 
 header{
@@ -324,9 +359,7 @@ header{
    height: 2000px ;
   }
 
-  footer{
-    height: 1000px;
-}
+
 
 header{
   height: 170px;
@@ -339,8 +372,8 @@ header{
   }
 
 footer{
-  height: 1000px;
-     }
+  height: 1150px;
+}
 
      header{
        height: 158px;
