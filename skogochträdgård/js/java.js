@@ -15,7 +15,7 @@ $("#hemButton").click(function(){
     pos=79;
   }
 
-  $('html, body').animate({
+  $("html, body").animate({
         scrollTop: $("#hemsidan").offset().top-pos
     }, 2000);
 
@@ -35,7 +35,7 @@ $("#sortimentButton").click(function(){
     pos=90;
   }
 
-  $('html, body').animate({
+  $("html, body").animate({
 
         scrollTop: $("#sortiment").offset().top-pos
     }, 2000);
@@ -57,7 +57,7 @@ $("#verkstadButton").click(function(){
     pos=90;
   }
 
-  $('html, body').animate({
+  $("html, body").animate({
 
         scrollTop: $("#verkstad").offset().top-150
     }, 2000);
@@ -78,7 +78,7 @@ $("#oppettiderButton").click(function(){
     pos=90;
   }
 
-  $('html, body').animate({
+  $("html, body").animate({
 
         scrollTop: $("#oppettider").offset().top-150
     }, 2000);
@@ -100,7 +100,7 @@ else {
   pos=140;
 }
 
-  $('html, body').animate({
+  $("html, body").animate({
 
         scrollTop: $("#omoss").offset().top-pos
     }, 2000);
@@ -121,7 +121,7 @@ $(".bild").click(function(){
     pos=79;
   }
 
-  $('html, body').animate({
+  $("html, body").animate({
 
         scrollTop: $("#hemsidan").offset().top-pos
     }, 2000);
