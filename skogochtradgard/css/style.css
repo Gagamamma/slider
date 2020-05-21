@@ -91,11 +91,15 @@ nav{
     text-decoration: none;
   }
 
-  .yellowLink{
-    color: black;
-    text-decoration: underline;
 
-  }
+  .yellowLink {
+  color: blue;
+}
+
+
+.yellowLink:hover {
+  color: orange;
+}
 
 main{
   background-color: white;
