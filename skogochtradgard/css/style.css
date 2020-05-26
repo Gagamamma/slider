@@ -1,415 +1,387 @@
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .wrapper{
-  padding-top: 60px;
-}
-
-#navbar{
-
-overflow: hidden;
-}
-
-.streck{
-  width: 100%;
-  height: 5px;
-  background-color: #e09d1b;
-}
-
-.streck2{
-  width: 100%;
-  height: 2px;
-  background-color: #e09d1b;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-
-header{
-
-  background-color: white;
-  width: 100%;
-  height: 412px;
-}
-
-.bildresponsive{
-  width: 100%;
-
-  max-height: 412px;
-  height: auto;
-
-}
-
-
-nav{
-  background-color: white;
-  width: 100%;
-  height: 90px;
-
-  font-size: 30px;
-  padding-top: 20px;
-  display: flex;
-  font-family: 'Sen', sans-serif;
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
-  #sortimentButton{
-    display: none;
+  .sticky + .wrapper{
+    padding-top: 60px;
   }
 
-  #verkstadButton{
-    display: none;
-  }
-  #oppettiderButton{
-    display: none;
+  #navbar{
+  overflow: hidden;
   }
 
-  #omossButton{
-    display: none;
+  .streck{
+    width: 100%;
+    height: 5px;
+    background-color: #e09d1b;
   }
 
-  .bild{
-    margin-left: 20px;
-
+  .streck2{
+    width: 100%;
+    height: 2px;
+    background-color: #e09d1b;
   }
 
-  .lankar{
-    margin-left: 50px;
-    display: flex;
-    margin-top: 20px;
-    color: #fff;
+  *{
+    margin: 0;
+    padding: 0;
   }
 
-  a{
-    color:black;
-    text-decoration: none;
-  }
-
-
-  .yellowLink {
-  color: blue;
-}
-
-
-.yellowLink:hover {
-  color: #e09d1b;
-}
-
-main{
-  background-color: white;
-  height: 1450px;
-  width: 100%;
-  padding-top: 20px;
-
-  font-family: 'Sen', sans-serif;
-  }
-
-.mellanrum{
-  height: auto;
-  width: 100%;
-  }
-
-#sortiment{
-  padding:40px;
-}
-  #ladorsortiment {
-
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-  }
-
-  .ladorinnehall{
-    width: 250px;
-    height: 410px;
-    margin: 10px;
-    margin-left: 30px;
-    padding-top: 0px;
-    text-align: center;
+  header{
     background-color: white;
-    border: 2px solid #e09d1b;
+    width: 100%;
+    height: 412px;
+  }
+
+  .bildresponsive{
+    width: 100%;
+    max-height: 412px;
+    height: auto;
+  }
+
+  nav{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+
+    font-size: 30px;
+    padding-top: 20px;
+    display: flex;
     font-family: 'Sen', sans-serif;
+    }
+
+    #sortimentButton{
+      display: none;
+    }
+
+    #verkstadButton{
+      display: none;
+    }
+    #oppettiderButton{
+      display: none;
+    }
+
+    #omossButton{
+      display: none;
+    }
+
+    .bild{
+      margin-left: 20px;
+    }
+
+    .lankar{
+      margin-left: 50px;
+      display: flex;
+      margin-top: 20px;
+      color: #fff;
+    }
+
+    a{
+      color:black;
+      text-decoration: none;
+    }
+
+    .yellowLink {
+    color: blue;
   }
 
-  #stihlbild{
-    margin-top: 19px;
+  .yellowLink:hover {
+    color: #e09d1b;
   }
 
-  #husqvarnabild{
-    margin-top: 18px;
-  }
-  #yamahabild{
-    margin-top: 19px;
+  main{
+    background-color: white;
+    height: 1450px;
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'Sen', sans-serif;
+    }
+
+  .mellanrum{
+    height: auto;
+    width: 100%;
+    }
+
+  #sortiment{
+    padding:40px;
   }
 
+    #ladorsortiment {
 
-#hemsidan{
-  padding:40px;
-  }
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+    }
 
-#verkstad{
-  padding: 40px;
-  }
-#oppettider{
+    .ladorinnehall{
+      width: 250px;
+      height: 410px;
+      margin: 10px;
+      margin-left: 30px;
+      padding-top: 0px;
+      text-align: center;
+      background-color: white;
+      border: 2px solid #e09d1b;
+      font-family: 'Sen', sans-serif;
+    }
+
+    #stihlbild{
+      margin-top: 19px;
+    }
+
+    #husqvarnabild{
+      margin-top: 18px;
+    }
+    #yamahabild{
+      margin-top: 19px;
+    }
+
+  #hemsidan{
+    padding:40px;
+    }
+
+  #verkstad{
     padding: 40px;
     }
-
-footer{
-  background-color: #fff;
-  height: 1050px;
-  width: 100%;
-  padding-top: 20px;
-  text-align: center;
-  }
-
-.wrapper{
-  margin: 0 auto;
-  width: 1000px;
-  display: flex;
-  }
-
-body{
-  margin: 0 0 0 0;
-
-  background-color: #253050;
-  }
-
-  #twitterBild{
-    margin-left: 49%;
-    padding-top: 15px;
-    }
-
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-ezgif-com-webp-to-jpg {
-    width: 128px;
-    height: 80px;
-    background-position: -5px -5px;
-}
-
-.sprite-facebooksprite {
-    width: 35px;
-    height: 36px;
-    background-position: -143px -5px;
-}
-
-.sprite-webbskog {
-    width: 35px;
-    height: 22px;
-    background-position: -143px -51px;
-}
-
-
-#slider{
-  height: 200px;
-  width: 200px;
-  margin-left: 42%;
-  margin-top: 20px;
-  }
-
-  iframe{
-
-  width: 99%;
-  height: 400px;
-
-
-  }
-
-#imgs{
-  height: 200px;
-  width: 609px;
-  position: relative;
-  }
-
-button{
-  display: none;
-  margin-top: 10px;
-  width: 80px;
-  height: 40px;
-  margin-left: 47%;
-  font-family: 'Sen', sans-serif;
-  background-color: white;
-  color: black;
-  border: 2px solid #e09d1b;
-
-  }
-
-button:hover {
-  background-color: #253050;
-  color: #e09d1b;
-}
-
-#hideMenu{
-  display: flex;
-  }
-
-#omoss{
-  font-family: 'Sen', sans-serif;
-  padding: 5px;
-  }
-
-h1{
-  font-family: 'Sen', sans-serif;
-  }
-
-  @media only screen and (max-width: 1920px) {
-    #slider{
-      margin-left: 44%;
+  #oppettider{
+      padding: 40px;
       }
 
-
-  }
-  @media only screen and (max-width: 1400px) {
-
-    #slider{
-      margin-left: 42%;
-      }
-
-  }
-
-  @media only screen and (max-width: 1100px) {
-
-
-    header{
-      height: 350px;
+  footer{
+    background-color: #fff;
+    height: 1050px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
     }
-  }
-
-@media only screen and (max-width: 1024px) {
 
   .wrapper{
-   width: 100%;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    }
+
+  body{
+    margin: 0 0 0 0;
+
+    background-color: #253050;
+    }
+
+    #twitterBild{
+      margin-left: 49%;
+      padding-top: 15px;
+      }
+
+  .sprite {
+      background-image: url(spritesheet.png);
+      background-repeat: no-repeat;
+      display: block;
   }
 
-  header{
-    height: 333px;
+  .sprite-ezgif-com-webp-to-jpg {
+      width: 128px;
+      height: 80px;
+      background-position: -5px -5px;
   }
+
+  .sprite-facebooksprite {
+      width: 35px;
+      height: 36px;
+      background-position: -143px -5px;
+  }
+
+  .sprite-webbskog {
+      width: 35px;
+      height: 22px;
+      background-position: -143px -51px;
+  }
+
   #slider{
-    margin-left: 41%;
+    height: 200px;
+    width: 200px;
+    margin-left: 42%;
+    margin-top: 20px;
     }
-}
 
-@media only screen and (max-width: 980px) {
+    iframe{
 
+    width: 99%;
+    height: 400px;
+    }
 
+  #imgs{
+    height: 200px;
+    width: 609px;
+    position: relative;
+    }
 
-  header{
-height: 320px;
+  button{
+    display: none;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+    font-family: 'Sen', sans-serif;
+    background-color: white;
+    color: black;
+    border: 2px solid #e09d1b;
+    }
+
+  button:hover {
+    background-color: #253050;
+    color: #e09d1b;
   }
-  main{
-    height: 1830px;
-    }
-}
-
-
-
-@media only screen and (max-width: 870px) {
-
 
   #hideMenu{
-  display:none;
-  }
-  header{
-    height: 283px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-
-
-  footer{
-
-    height: 1100px;
-
-  }
-  header{
-    height: 261px;
-  }
-
-  main{
-    height: 1900px;
-  }
-
-}
-
-
-
-@media only screen and (max-width: 700px) {
-
-
-  header{
-    height: 228px;
-  }
-  main{
-    height: 2330px;
-  }
-
-}
-
-@media only screen and (max-width: 600px) {
-
-
-footer{
-  height: 1120px;
-}
-
-header{
-  height: 196px;
-}
-
-main{
-  height: 2400px;
-}
-
-}
-
-@media only screen and (max-width: 550px) {
-header{
-  height: 179px;
-}
-  }
-
-@media only screen and (max-width: 530px) {
-
-footer{
-  height: 1150px;
-}
- header{
-       height: 172px;
-     }
-  }
-
-  @media only screen and (max-width: 450px) {
-  main{
-    height: 2500px;
-  }
-  footer{
-    height: 1200px;
-  }
-  #slider{
-    margin-left: 25%;
+    display: flex;
     }
 
-    button{margin-left: 43%;
-  }
-
-  header{
-    height: 146px;
-  }
+  #omoss{
+    font-family: 'Sen', sans-serif;
+    padding: 5px;
     }
 
-    @media only screen and (max-width: 360px) {
+  h1{
+    font-family: 'Sen', sans-serif;
+    }
+
+    @media only screen and (max-width: 1920px) {
+      #slider{
+        margin-left: 44%;
+        }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      #slider{
+        margin-left: 42%;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+      header{
+        height: 350px;
+      }
+    }
+
+  @media only screen and (max-width: 1024px) {
+    .wrapper{
+     width: 100%;
+    }
+
     header{
-      height: 117px;
+      height: 333px;
+    }
+
+    #slider{
+      margin-left: 41%;
+      }
+  }
+
+  @media only screen and (max-width: 980px) {
+    header{
+  height: 320px;
+    }
+
+    main{
+      height: 1830px;
+      }
+  }
+
+  @media only screen and (max-width: 870px) {
+    #hideMenu{
+    display:none;
+    }
+
+    header{
+      height: 283px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    footer{
+
+      height: 1100px;
+
+    }
+    header{
+      height: 261px;
+    }
+
+    main{
+      height: 1900px;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+    header{
+      height: 228px;
+    }
+
+    main{
+      height: 2330px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+  footer{
+    height: 1120px;
+  }
+
+  header{
+    height: 196px;
+  }
+
+  main{
+    height: 2400px;
+  }
+  }
+
+  @media only screen and (max-width: 550px) {
+  header{
+    height: 179px;
+  }
+    }
+
+  @media only screen and (max-width: 530px) {
+  footer{
+    height: 1150px;
+  }
+
+   header{
+         height: 172px;
+       }
+    }
+
+    @media only screen and (max-width: 450px) {
+    main{
+      height: 2500px;
+    }
+
+    footer{
+      height: 1200px;
+    }
+
+    #slider{
+      margin-left: 25%;
+      }
+
+    button{
+    margin-left: 43%;
+    }
+
+    header{
+      height: 146px;
     }
       }
+
+      @media only screen and (max-width: 360px) {
+      header{
+        height: 117px;
+      }
+        }
