@@ -16,11 +16,11 @@ $("#hemButton").click(function(){
   }
 
   $("html, body").animate({
-        scrollTop: $("#hemsidan").offset().top-pos
-    }, 2000);
+    scrollTop: $("#hemsidan").offset().top-pos
+  }, 2000);
 
 
-
+  
 });
 
 $("#sortimentButton").click(function(){
@@ -37,8 +37,8 @@ $("#sortimentButton").click(function(){
 
   $("html, body").animate({
 
-        scrollTop: $("#sortiment").offset().top-pos
-    }, 2000);
+    scrollTop: $("#sortiment").offset().top-pos
+  }, 2000);
 
 
 
@@ -59,8 +59,8 @@ $("#verkstadButton").click(function(){
 
   $("html, body").animate({
 
-        scrollTop: $("#verkstad").offset().top-150
-    }, 2000);
+    scrollTop: $("#verkstad").offset().top-150
+  }, 2000);
 
 
 
@@ -80,8 +80,8 @@ $("#oppettiderButton").click(function(){
 
   $("html, body").animate({
 
-        scrollTop: $("#oppettider").offset().top-150
-    }, 2000);
+    scrollTop: $("#oppettider").offset().top-150
+  }, 2000);
 
 
 
@@ -89,21 +89,21 @@ $("#oppettiderButton").click(function(){
 
 $("#omossButton").click(function(){
 
-var a = window.pageYOffset ;
-console.log(a);
-var pos=0;
-if (a<412) {
-  pos=200;
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=200;
 
-}
-else {
-  pos=140;
-}
+  }
+  else {
+    pos=140;
+  }
 
   $("html, body").animate({
 
-        scrollTop: $("#omoss").offset().top-pos
-    }, 2000);
+    scrollTop: $("#omoss").offset().top-pos
+  }, 2000);
 
 
 
@@ -123,8 +123,8 @@ $(".bild").click(function(){
 
   $("html, body").animate({
 
-        scrollTop: $("#hemsidan").offset().top-pos
-    }, 2000);
+    scrollTop: $("#hemsidan").offset().top-pos
+  }, 2000);
 
 
 
@@ -172,4 +172,4 @@ $("#btn2").click(function () { //När man klickar på knappen btn2 körs funktio
     x=x-1; //När man går en bild bakåt måste även x blir ett mindre så den inte hoppar bilder.
   }
 });   //Denna knappen är tii för att man ska kunna backa en bild istället för att bläddra ett varv runt i onödan.
-      //Det ska inte gå att backa på första bilden, när x=0.
+//Det ska inte gå att backa på första bilden, när x=0.
