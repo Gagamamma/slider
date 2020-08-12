@@ -152,7 +152,7 @@ main{
 
 footer{
   background-color: #fff;
-  height: 1050px;
+  height: 1150px;
   width: 100%;
   padding-top: 20px;
   text-align: center;
@@ -200,10 +200,11 @@ body{
 }
 
 #slider{
-  height: 200px;
-  width: 200px;
-  margin-left: 42%;
+  height: 300px;
+  width: 300px;
+  margin-left: 40%;
   margin-top: 20px;
+
 }
 
 iframe{
@@ -213,8 +214,8 @@ iframe{
 }
 
 #imgs{
-  height: 200px;
-  width: 609px;
+  height: 300px;
+  width: 909px;
   position: relative;
 }
 
@@ -250,19 +251,52 @@ h1{
 
 @media only screen and (max-width: 1920px) {
   #slider{
-    margin-left: 44%;
+    margin-left: 41%;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  #slider{
+    margin-left: 40%;
   }
 }
 
 @media only screen and (max-width: 1400px) {
   #slider{
-    margin-left: 42%;
+    margin-left: 39%;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  header{
+    height: 395px;
+  }
+  #slider{
+    margin-left: 38%;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  header{
+    height: 382px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  header{
+    height: 370px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
   header{
-    height: 350px;
+    height: 357px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  header{
+    height: 344px;
   }
 }
 
@@ -270,23 +304,35 @@ h1{
   .wrapper{
     width: 100%;
   }
-
   header{
     height: 333px;
   }
-
-  #slider{
-    margin-left: 41%;
-  }
+#slider{
+  margin-left: 37%;
+}
 }
 
 @media only screen and (max-width: 980px) {
   header{
     height: 320px;
   }
-
   main{
     height: 1830px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  header{
+    height: 300px;
+  }
+  #slider{
+    margin-left: 36%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  header{
+    height: 290px;
   }
 }
 
@@ -294,94 +340,73 @@ h1{
   #hideMenu{
     display:none;
   }
-
   header{
-    height: 283px;
+    display: none;
+  }
+  #slider{
+    margin-left: 35%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   footer{
-
-    height: 1100px;
-
+    height: 1180px;
   }
-  header{
-    height: 261px;
-  }
-
   main{
-    height: 1900px;
+    height: 1950px;
   }
-
+  #slider{
+    margin-left: 34%;
+  }
 }
 
-
-
 @media only screen and (max-width: 700px) {
-  header{
-    height: 228px;
-  }
-
   main{
     height: 2330px;
+  }
+  #slider{
+    margin-left: 33%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   footer{
-    height: 1120px;
+    height: 1200px;
   }
-
-  header{
-    height: 196px;
-  }
-
   main{
     height: 2400px;
   }
-}
-
-@media only screen and (max-width: 550px) {
-  header{
-    height: 179px;
+  #slider{
+    margin-left: 31%;
   }
 }
 
-@media only screen and (max-width: 530px) {
-  footer{
-    height: 1150px;
-  }
-
-  header{
-    height: 172px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  main{
-    height: 2500px;
-  }
-
+@media only screen and (max-width: 540px) {
   footer{
     height: 1200px;
   }
-
   #slider{
-    margin-left: 25%;
-  }
-
-  button{
-    margin-left: 43%;
-  }
-
-  header{
-    height: 146px;
+    margin-left: 29%;
   }
 }
 
-@media only screen and (max-width: 360px) {
-  header{
-    height: 117px;
+@media only screen and (max-width: 490px) {
+  footer{
+    height: 1250px;
+  }
+  #slider{
+    margin-left: 25%;
+  }
+  button{
+    margin-left: 43%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  footer{
+    height: 1300px;
+  }
+  #slider{
+    margin-left: 20%;
   }
 }

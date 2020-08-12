@@ -20,7 +20,7 @@ $("#hemButton").click(function(){
   }, 2000);
 
 
-  
+
 });
 
 $("#sortimentButton").click(function(){
@@ -148,6 +148,8 @@ function myFunction() {
 
 
 
+
+
 $("button").show();     //Jag säger att knappen ska synas.
 $("#slider").css("overflow", "hidden");   //Jag sätter att rutan window ska överfördet tas bort (det utanför 200*200px) när jquery är igång.
 var x=0; //initierar variabeln x
@@ -160,7 +162,7 @@ $("#btn1").click(function () {  //När man klickar på knappen btn1 körs funkti
     $("#imgs").animate({right:"0"});  // ska man bläddra tillbaka till bild ett på px 0.
     x=0; //x blir 0 igen eftersom man är på första bilden.
   }else {
-    $("#imgs").animate({right:"+=203"});  //Innan x>=3 ska bilderna bläddra 202px mot höger.
+    $("#imgs").animate({right:"+=303"});  //Innan x>=3 ska bilderna bläddra 202px mot höger.
 
   }
 
@@ -168,7 +170,7 @@ $("#btn1").click(function () {  //När man klickar på knappen btn1 körs funkti
 
 $("#btn2").click(function () { //När man klickar på knappen btn2 körs funktionen klick.
   if(x>=1){ //När x är större eller = ett kan
-    $("#imgs").animate({right:"-=202"}); // funktionen backa bläddringen 202px bakåt, dvs en bild tillbaka.
+    $("#imgs").animate({right:"-=302"}); // funktionen backa bläddringen 202px bakåt, dvs en bild tillbaka.
     x=x-1; //När man går en bild bakåt måste även x blir ett mindre så den inte hoppar bilder.
   }
 });   //Denna knappen är tii för att man ska kunna backa en bild istället för att bläddra ett varv runt i onödan.
