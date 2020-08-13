@@ -64,9 +64,15 @@ nav{
   display: none;
 }
 
+#kontaktButton{
+  display: none;
+}
+
+
 #omossButton{
   display: none;
 }
+
 
 .bild{
   margin-left: 20px;
@@ -94,7 +100,7 @@ a{
 
 main{
   background-color: white;
-  height: 1450px;
+  height: 1700px;
   width: 100%;
   padding-top: 20px;
   font-family: 'Sen', sans-serif;
@@ -147,6 +153,9 @@ main{
   padding: 40px;
 }
 #oppettider{
+  padding: 40px;
+}
+#kontakt{
   padding: 40px;
 }
 

@@ -1,6 +1,7 @@
 $("#sortimentButton").show();
 $("#verkstadButton").show();
 $("#oppettiderButton").show();
+$("#kontaktButton").show();
 $("#omossButton").show();
 
 $("#hemButton").click(function(){
@@ -81,6 +82,27 @@ $("#oppettiderButton").click(function(){
   $("html, body").animate({
 
     scrollTop: $("#oppettider").offset().top-150
+  }, 2000);
+
+
+
+});
+
+$("#kontaktButton").click(function(){
+  var a = window.pageYOffset ;
+  console.log(a);
+  var pos=0;
+  if (a<412) {
+    pos=150;
+
+  }
+  else {
+    pos=90;
+  }
+
+  $("html, body").animate({
+
+    scrollTop: $("#kontakt").offset().top-150
   }, 2000);
 
 
