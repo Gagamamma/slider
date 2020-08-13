@@ -427,3 +427,12 @@ h1{
   }
 
 }
+
+@media only screen and (max-width: 370px) {
+  main{
+    height: 2950px;
+  }
+  #slider{
+    margin-left: 10%;
+  }
+}
