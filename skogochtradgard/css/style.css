@@ -326,7 +326,7 @@ h1{
     height: 320px;
   }
   main{
-    height: 1830px;
+    height: 1930px;
   }
 }
 
@@ -363,7 +363,7 @@ h1{
     height: 1180px;
   }
   main{
-    height: 1950px;
+    height: 2050px;
   }
   #slider{
     margin-left: 34%;
@@ -372,7 +372,7 @@ h1{
 
 @media only screen and (max-width: 700px) {
   main{
-    height: 2330px;
+    height: 2530px;
   }
   #slider{
     margin-left: 33%;
@@ -384,7 +384,7 @@ h1{
     height: 1200px;
   }
   main{
-    height: 2450px;
+    height: 2750px;
   }
   #slider{
     margin-left: 31%;
@@ -393,19 +393,19 @@ h1{
 
 @media only screen and (max-width: 540px) {
   footer{
-    height: 1200px;
+    height: 1250px;
   }
   #slider{
-    margin-left: 29%;
+    margin-left: 26%;
   }
     main{
-      height: 2500px;
+      height: 2700px;
     }
 }
 
 @media only screen and (max-width: 490px) {
   footer{
-    height: 1250px;
+    height: 1300px;
   }
   #slider{
     margin-left: 23%;
