@@ -326,7 +326,7 @@ h1{
     height: 320px;
   }
   main{
-    height: 1930px;
+    height: 2130px;
   }
 }
 
@@ -363,7 +363,7 @@ h1{
     height: 1180px;
   }
   main{
-    height: 2050px;
+    height: 2250px;
   }
   #slider{
     margin-left: 34%;
@@ -372,7 +372,7 @@ h1{
 
 @media only screen and (max-width: 700px) {
   main{
-    height: 2530px;
+    height: 2600px;
   }
   #slider{
     margin-left: 33%;
@@ -381,13 +381,16 @@ h1{
 
 @media only screen and (max-width: 600px) {
   footer{
-    height: 1200px;
+    height: 1250px;
   }
   main{
-    height: 2750px;
+    height: 2650px;
   }
   #slider{
-    margin-left: 31%;
+    margin-left: 26%;
+  }
+  button{
+    margin-left: 43%;
   }
 }
 
@@ -396,10 +399,10 @@ h1{
     height: 1250px;
   }
   #slider{
-    margin-left: 26%;
+    margin-left: 23%;
   }
     main{
-      height: 2700px;
+      height: 2730px;
     }
 }
 
@@ -408,7 +411,7 @@ h1{
     height: 1300px;
   }
   #slider{
-    margin-left: 23%;
+    margin-left: 21%;
   }
   button{
     margin-left: 43%;
@@ -416,10 +419,11 @@ h1{
 }
 
 @media only screen and (max-width: 430px) {
-  footer{
-    height: 1300px;
-  }
   #slider{
     margin-left: 15%;
   }
+  button{
+    margin-left: 40%;
+  }
+
 }
