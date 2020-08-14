@@ -424,3 +424,12 @@ h1{
    height: 1350px;
   }
 }
+@media only screen and (max-width: 320px) {
+
+  #slider{
+    margin-left:10px;
+  }
+  .ladorinnehall{
+    margin-left: 1px;
+  }
+}
