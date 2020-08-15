@@ -71,11 +71,11 @@ nav{
 }
 
 .bild{
-  margin-left: 20px;
+  margin-left: 300px;
 }
 
 .lankar{
-  margin-left: 50px;
+  margin-left: 4%;
   display: flex;
   margin-top: 20px;
   color: #fff;
@@ -255,17 +255,32 @@ h1{
   #slider{
     margin-left: 41%;
   }
+  .bild{
+    margin-left: 290px;
+  }
 }
 
 @media only screen and (max-width: 1650px) {
   #slider{
     margin-left: 40%;
   }
+  .bild{
+    margin-left: 170px;
+  }
+}
+
+@media only screen and (max-width: 1525px) {
+  .bild{
+    margin-left: 110px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
   #slider{
     margin-left: 39%;
+  }
+  .bild{
+    margin-left: 55px;
   }
 }
 
@@ -274,12 +289,16 @@ h1{
     width: 100%;
     height: 100%;
   }
+  .bild{
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 1220px) {
   #slider{
     margin-left: 38%;
   }
+
 }
 
 @media only screen and (max-width: 1160px) {
