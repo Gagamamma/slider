@@ -291,8 +291,6 @@ h1{
   }
 }
 
-
-
 @media only screen and (max-width: 1270px) {
   .bild{
     margin-left: 20px;
@@ -320,7 +318,6 @@ h1{
   margin-left: 37%;
 }
 }
-
 
 @media only screen and (max-width: 980px) {
   main{
