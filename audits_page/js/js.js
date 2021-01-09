@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    document.getElementById("#dis").style.visibility = "hidden";
+  });
 
 
 

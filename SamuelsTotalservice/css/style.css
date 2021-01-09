@@ -132,20 +132,11 @@ from{
 header{
   background-color: #0b3e99;
   width: 100%;
-  height: 412px;
+  max-height: 612px;
+  height: auto;
   align-items: center;
   display: flex;
-    background-image: url('headerbild1.jpg');
-    background: cover;
-}
 
-#logga{
-background-color: white;
-margin: 0 auto;
-width: 50%;
-height: 50%;
-display: flex;
-animation: fade 10s ease forwards;
 }
 
 .bildresponsive{
@@ -185,9 +176,14 @@ nav{
 #omossButton{
   display: none;
 }
+#omossButton:hover{
+  transform: translateY(-2px);
+}
 
 .bild img{
   margin-right: 40px;
+  width: 80px;
+  height: 80px;
 }
 
 .lankar{
@@ -196,6 +192,7 @@ margin-right: 40px;
   margin-top: 20px;
   color: #fff;
 }
+
 
 a{
   color:white;
@@ -275,6 +272,30 @@ footer{
   height: 200px;
   padding-top: 20px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  grid-template-rows: 10rem 10rem 10rem;
+}
+
+.fotterruta1{
+  color:white;
+}
+
+.fotterruta2{
+  color:white;
+}
+
+.fotterruta3{
+  color:white;
+grid-column: 1/3;
+}
+.fotterruta3 img{
+  max-width: 70%;
+  height: auto;
+}
+.fotterruta4{
+  color:white;
+  grid-column: 1/3;
 }
 
 .wrapper{
@@ -287,6 +308,7 @@ body{
   margin: 0 0 0 0;
   background-color: black;
   animation: fade 5s ease forwards;
+    font-family: 'Sen', sans-serif;
 }
 
 #twitterBild{
