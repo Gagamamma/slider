@@ -3,6 +3,7 @@
 $("#sortimentButton").show();
 $("#verkstadButton").show();
 $("#oppettiderButton").show();
+$("#projektButton").show();
 $("#kontaktButton").show();
 $("#omossButton").show();
 
