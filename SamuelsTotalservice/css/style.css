@@ -17,6 +17,10 @@ font-size: 28px;
 animation: inledning 3s ease forwards 2.5s;
 }
 
+#projektButton{
+  color:black;
+  background-color: white;
+}
 
 @keyframes inledning {
 from{
@@ -34,9 +38,7 @@ from{
 }
 
 
-#dropdown{
-  position: relative;
- display: inline-block;
+.dropdown{
 }
 .dropdown-content {
   display: none;
@@ -163,28 +165,34 @@ nav{
   font-family: 'Sen', sans-serif;
   color: white;
 }
-
-#sortimentButton{
-  display: none;
+.burger{
+margin-top: 25px;
+display: none;
+cursor: pointer;
 }
 
-#verkstadButton{
-  display: none;
-}
-#oppettiderButton{
-  display: none;
-}
-#projektButton{
-  display: none;
+.burger div{
+
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+  transition: all 0.5s ease;
 }
 
-#kontaktButton{
-  display: none;
+
+.nav-links{
+margin-right: 40px;
+  display: flex;
+  margin-top: 20px;
+  color: blue;
 }
 
-#omossButton{
-  display: none;
+
+.nav-links li{
+list-style: none;
 }
+
 #omossButton:hover{
   transform: translateY(-2px);
 }
@@ -194,14 +202,6 @@ nav{
   width: 80px;
   height: 80px;
 }
-
-.lankar{
-margin-right: 40px;
-  display: flex;
-  margin-top: 20px;
-  color: #fff;
-}
-
 
 a{
   color:white;
@@ -551,6 +551,10 @@ h1{
   font-family: 'Sen', sans-serif;
 }
 
+.hide{
+  display: none;
+}
+
 @media only screen and (max-width: 1920px) {
   #slider{
     margin-left: 41%;
@@ -610,9 +614,81 @@ h1{
   margin-left: 37%;
 }
 }
+body{
+  overflow-x: hidden;
+}
 
 @media only screen and (max-width: 930px) {
-  #hideMenu{
-    display:none;
+/*
+
+  body{
+    overflow-x: hidden;
   }
+  */
+  .dropdown{
+    display: none;
+  }
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 0px;
+    margin-top: 0px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links a{
+    opacity: 0;
+    padding: 15px;
+  }
+
+  a:hover{
+  font-size: 25px;
+  }
+
+  .burger{
+    display: block;
+  }
+  .hide{
+    display: flex;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
+  color: white;
+}
+
+@keyframes navLinkFade {
+
+from{
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+to{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+
+.toggle .line2{
+  opacity: 0;
+}
+
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
 }

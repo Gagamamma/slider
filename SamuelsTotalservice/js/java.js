@@ -1,114 +1,5 @@
 
 
-$("#sortimentButton").show();
-$("#verkstadButton").show();
-$("#oppettiderButton").show();
-$("#projektButton").show();
-$("#kontaktButton").show();
-$("#omossButton").show();
-
-$("#hemButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=140;
-  }
-
-  else {
-    pos=79;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#hemsidan").offset().top-pos
-  }, 2000);
-});
-
-$("#sortimentButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=150;
-  }
-
-  else {
-    pos=90;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#sortiment").offset().top-pos
-  }, 2000);
-});
-
-$("#verkstadButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=150;
-  }
-
-  else {
-    pos=90;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#verkstad").offset().top-pos
-  }, 2000);
-});
-
-$("#oppettiderButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=150;
-  }
-
-  else {
-    pos=90;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#oppettider").offset().top-pos
-  }, 2000);
-});
-
-$("#kontaktButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=150;
-  }
-
-  else {
-    pos=90;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#kontakt").offset().top-pos
-  }, 2000);
-});
-
-$("#omossButton").click(function(){
-  var a = window.pageYOffset ;
-  console.log(a);
-  var pos=0;
-  if (a<412) {
-    pos=188;
-  }
-
-  else {
-    pos=134;
-  }
-
-  $("html, body").animate({
-    scrollTop: $("#omoss").offset().top-pos
-  }, 2000);
-});
-
 $(".bild").click(function(){
   var a = window.pageYOffset ;
   console.log(a);
@@ -151,3 +42,33 @@ $("#btn2").click(function () { //När man klickar på knappen btn2 körs funktio
   }
 });   //Denna knappen är tii för att man ska kunna backa en bild istället för att bläddra ett varv runt i onödan.
 //Det ska inte gå att backa på första bilden, när x=0.
+
+const navSlide =()=>{
+
+const burger =document.querySelector('.burger');
+const nav =document.querySelector('.nav-links');
+const navLinks =document.querySelectorAll('.nav-links a');
+
+
+burger.addEventListener('click', () =>{
+
+  nav.classList.toggle('nav-active');
+
+  navLinks.forEach((link, index) => {
+
+    console.log(index);
+    if (link.style.animation) {
+      link.style.animation = '';
+    }else {
+      link.style.animation = `navLinkFade 0.5 ease forwards ${index /7 +2}s`;
+    }
+
+  });
+
+  burger.classList.toggle('toggle');
+
+});
+
+}
+
+navSlide();
