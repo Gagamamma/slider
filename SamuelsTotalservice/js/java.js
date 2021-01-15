@@ -1,5 +1,5 @@
 
-
+/*
 $(".bild").click(function(){
   var a = window.pageYOffset ;
   console.log(a);
@@ -16,7 +16,7 @@ $(".bild").click(function(){
     scrollTop: $("#hemsidan").offset().top-pos
   }, 2000);
 });
-
+*/
 
 
 
