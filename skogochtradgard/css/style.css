@@ -1,3 +1,4 @@
+
 .sticky {
   position: fixed;
   top: 0;
@@ -39,12 +40,12 @@ header{
   background-color: #e09d1b;
   width: 100%;
   height: auto;
-  max-height: 612px;
+  max-height: 412px;
 }
 
 .bildresponsive{
   width: 100%;
-  max-height: 612px;
+  max-height: 412px;
   height: auto;
 }
 
@@ -274,9 +275,6 @@ h1{
   .bild{
     margin-left: 170px;
   }
-  .strecknav{
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 1525px) {
@@ -300,13 +298,131 @@ h1{
   }
 }
 
-@media only screen and (max-width: 1263px) {
-
+@media only screen and (max-width: 1220px) {
+  #slider{
+    margin-left: 38%;
+  }
 }
 
+@media only screen and (max-width: 1024px) {
+  .wrapper{
+    width: 100%;
+  }
+#slider{
+  margin-left: 37%;
+}
+}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 980px) {
+  main{
+    height: 2130px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  #slider{
+    margin-left: 36%;
+  }
   #hideMenu{
     display:none;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  #slider{
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  footer{
+    height: 1180px;
+  }
+  main{
+    height: 2250px;
+  }
+  #slider{
+    margin-left: 34%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main{
+    height: 2600px;
+  }
+  #slider{
+    margin-left: 33%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+    height: 1250px;
+  }
+  main{
+    height: 2690px;
+  }
+  #slider{
+    margin-left: 26%;
+  }
+  button{
+    margin-left: 43%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  footer{
+    height: 1250px;
+  }
+  #slider{
+    margin-left: 23%;
+  }
+    main{
+      height: 2800px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+  footer{
+    height: 1300px;
+  }
+  #slider{
+    margin-left: 21%;
+  }
+  button{
+    margin-left: 43%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #slider{
+    margin-left: 13%;
+  }
+  button{
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  main{
+    height: 2950px;
+  }
+  #slider{
+    margin-left: 10%;
+  }
+  .ladorinnehall{
+    margin-left: 5%;
+  }
+  footer{
+   height: 1350px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #slider{
+    margin-left:10px;
+  }
+  .ladorinnehall{
+    margin-left: 1px;
   }
 }
