@@ -4,5 +4,5 @@ console.log(`Letter ${i} is ${pil[i].getTotalLength()}`);
 }
 
 setTimeout(function() {
-  window.location.href = "https://gagamamma.github.io/slider/SamuelsTotalservice/hem.html";
+  window.location.href = "https://samuelstotalservice.se/hem.html";
 }, 4500);

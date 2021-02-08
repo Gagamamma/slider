@@ -270,7 +270,6 @@ transform: scale(1.05);
    top: 0px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
-
   visibility: hidden;
   opacity: 0;
   width: 100%;
@@ -304,6 +303,27 @@ border-radius: 5px;
 .img__wrap:hover .img__description {
   visibility: visible;
   opacity: 1;
+}
+
+
+
+.gallerim{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  padding: 20px;
+  background-color: white;
+}
+
+.gallerim img{
+  width: 100%;
+  border-radius: 100%;
+}
+/* relevant styles */
+.mottowrap {
+display: grid;
+position: relative;
 }
 
 
@@ -625,13 +645,13 @@ body{
   .nav-links{
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 0;
+    height: 100vh;
+    top: 0%;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 48%;
     margin-right: 0px;
     margin-top: 0px;
     transform: translateX(100%);
@@ -640,6 +660,7 @@ body{
   .nav-links a{
     opacity: 0;
     padding: 15px;
+
   }
 
   a:hover{
@@ -654,7 +675,16 @@ body{
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .nav-links{
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  .nav-links{
+    font-size: 15px;
+  }
 
 
   .fotterruta1{
