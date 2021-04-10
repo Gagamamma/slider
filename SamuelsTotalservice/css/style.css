@@ -181,12 +181,10 @@ cursor: pointer;
 
 
 .nav-links{
-margin-right: 40px;
   display: flex;
   margin-top: 20px;
   color: blue;
 }
-
 
 .nav-links li{
 list-style: none;
@@ -379,9 +377,7 @@ position: relative;
 .kontakta span{
   font-weight: bold;
   text-decoration: bold;
-
 }
-
 
 .mellanrum{
   height: auto;
@@ -440,32 +436,52 @@ footer{
   padding-top: 20px;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr  1fr;
-  grid-template-rows: 10rem 10rem 10rem;
+  grid-template-columns: 1fr  1fr 1fr;
+  grid-template-rows: 10rem 10rem ;
+}
+
+.streck23{
+  height: 2px;
+  width: 100%;
+  background-color: white;
 }
 
 .fotterruta1{
   color:white;
+  grid-column: 1;
+  padding-top: 20px;
 }
 
 .fotterruta2{
   color:white;
+  grid-column: 3/4;
+  padding-top: 20px;
 }
 
 .fotterruta3{
   color:white;
-grid-column: 1/3;
+  grid-column: 1/4;
 }
+
 .fotterruta3 img{
   max-width: 70%;
   height: auto;
 }
-.fotterruta4{
-  color:white;
-  grid-column: 1/3;
-  justify-content: center;
-  display: flex;
 
+.fotterruta4{
+  grid-column: 2/3;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotterruta4 h2{
+  color:white;
+}
+
+#fottermedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper{
@@ -482,21 +498,23 @@ body{
 }
 
 #twitterBild{
-  margin-right: 10px;
+transform: scale(0.7);
 }
 
 #facebookBild{
-
-margin-left: 10px;
+transform: scale(0.7);
 }
 
 #twitterBild:hover{
-transform: scale(0.9);
+transform: scale(0.75);
 }
 #facebookBild:hover{
-transform: scale(0.9);
+transform: scale(0.75);
 }
 
+#iframe{
+  padding: 40px;
+}
 
 .sprite {
   background-image: url(spritesheet.png);
@@ -633,7 +651,7 @@ body{
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 750px) {
 
   body{
     overflow-x: hidden;
@@ -653,13 +671,13 @@ body{
     align-items: center;
     width: 48%;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 40%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
   .nav-links a{
     opacity: 0;
-    padding: 15px;
+    padding: 13px;
 
   }
 
