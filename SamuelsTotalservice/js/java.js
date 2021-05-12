@@ -17,6 +17,12 @@ $(".bild").click(function(){
   }, 2000);
 });
 */
+$("#påminnelseknapp").click(function () {
+
+    $("#påminnelse").fadeOut(2000);
+
+});
+
 
 
 

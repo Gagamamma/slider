@@ -104,7 +104,6 @@ a{
 
 main{
   background-color: white;
-  height: 1700px;
   width: 100%;
   padding-top: 20px;
   font-family: 'Sen', sans-serif;
@@ -117,6 +116,11 @@ main{
 
 #sortiment{
   padding:40px;
+}
+#marknan img{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 #ladorsortiment {
@@ -313,11 +317,6 @@ h1{
 }
 }
 
-@media only screen and (max-width: 980px) {
-  main{
-    height: 2130px;
-  }
-}
 
 @media only screen and (max-width: 930px) {
   #slider{
@@ -338,18 +337,13 @@ h1{
   footer{
     height: 1180px;
   }
-  main{
-    height: 2250px;
-  }
+
   #slider{
     margin-left: 34%;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  main{
-    height: 2600px;
-  }
   #slider{
     margin-left: 33%;
   }
@@ -359,9 +353,7 @@ h1{
   footer{
     height: 1250px;
   }
-  main{
-    height: 2690px;
-  }
+
   #slider{
     margin-left: 26%;
   }
@@ -377,9 +369,6 @@ h1{
   #slider{
     margin-left: 23%;
   }
-    main{
-      height: 2800px;
-    }
 }
 
 @media only screen and (max-width: 490px) {
@@ -405,7 +394,7 @@ h1{
 
 @media only screen and (max-width: 370px) {
   main{
-    height: 2950px;
+    height: 3050px;
   }
   #slider{
     margin-left: 10%;
